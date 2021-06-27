@@ -1,0 +1,62 @@
+/* body{
+    background:linear-gradient(white,purple);
+    color: white;
+} */
+
+#mainh1{
+    text-align: center;
+    font-size: 35px;
+    color:black;
+    background:repeating-linear-gradient(rgb(236, 176, 236), white);
+    width: 400px;
+    margin: auto;
+    border: 2px solid black;
+    
+
+}
+.form{
+    /* height: 700px; */
+    width: auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.form label{
+    font-size: 18px;
+    margin: 20px 20px;
+    font-weight: bold;
+    width: 900px;
+    float: left;
+}
+.form input{
+    width: 60%;
+    margin: 5px 20px;
+    font-size: 17px;
+}
+.form textarea{
+    width: 60%;
+    margin: 5px 20px;
+    font-size: 17px;
+}
+.btn-primary{
+    display: flex;
+    width: 150px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+
+} 
+
+.table{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 150px;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+   
+}
